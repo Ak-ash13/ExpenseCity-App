@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/d2"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:orderInCategory="100"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/maps"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:orderInCategory="100"
+                android:title="Maps" />
+
+
+
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_message_black_24dp"
+                android:orderInCategory="100"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:orderInCategory="100"
+                android:title="Help" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:orderInCategory="100"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+
+</menu>

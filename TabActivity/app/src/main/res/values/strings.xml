@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TabActivity</string>
+    <string name="tab_text_1">Expenses</string>
+    <string name="tab_text_2">Add Trip</string>
+    <string name="tab_text_3" />
+    <string name="tab_text_4">Statistics</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="fromerror">Enter place from</string>
+    <string name="toerror">Enter place To</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="budgeterror">Enter a approved budget</string>
+    <string name="balanceerror">Enter Balance</string>
+
+</resources>
